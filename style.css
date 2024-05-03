@@ -91,4 +91,7 @@ button:disabled {
     flex-wrap: wrap;
     line-height: 1.2em;
   }
+  button:hover {
+    filter: none;
+  }
 }
