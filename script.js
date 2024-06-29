@@ -13,7 +13,8 @@ function toggleButton() {
 // Getting joke String
 async function getJoke() {
   toggleButton();
-  const jokeUrl = "https://v2.jokeapi.dev/joke/Any";
+  // const jokeUrl = "https://v2.jokeapi.dev/joke/Any";
+  const jokeUrl = "https://v2.jokeapi.dev/joke/Programming";
   try {
     let joke = "";
     const res = await fetch(jokeUrl);
